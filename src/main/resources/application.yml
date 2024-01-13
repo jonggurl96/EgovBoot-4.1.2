@@ -1,0 +1,17 @@
+server:
+  port: 8080
+spring:
+  thymeleaf:
+#    encoding: UTF-8
+    prefix: classpath:/templates/
+    suffix: .html
+    cache: false
+
+  main:
+    allow-bean-definition-overriding: true
+
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: postgres
+    url: jdbc:postgresql://localhost:5432/postgres

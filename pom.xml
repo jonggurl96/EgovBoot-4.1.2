@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>org.example</groupId>
+	<artifactId>EgovBoot4.1.2</artifactId>
+	<version>1.0-SNAPSHOT</version>
+	<packaging>jar</packaging>
+	<name>common component</name>
+	<description>
+		전자정부표준프레임워크 4.1.2 SpringBoot 전환
+	</description>
+
+	<licenses>
+		<license>
+			<name>The Apache Software License, Version 2.0</name>
+			<url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+		</license>
+	</licenses>
+
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>2.7.0</version>
+	</parent>
+
+	<properties>
+		<spring.maven.artifact.version>5.3.20</spring.maven.artifact.version>
+		<org.egovframe.rte.version>4.1.0</org.egovframe.rte.version>
+
+		<!-- IntelliJ Auto Generated. -->
+		<maven.compiler.source>11</maven.compiler.source>
+		<maven.compiler.target>11</maven.compiler.target>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+		<!-- Add -->
+		<java.version>11</java.version>
+	</properties>
+
+	<repositories>
+		<repository>
+			<id>mvn2s</id>
+			<url>https://repo1.maven.org/maven2/</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
+		<repository>
+			<id>egovframe</id>
+			<url>https://maven.egovframe.go.kr/maven/</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</repository>
+		<repository>
+			<id>projectRepository</id>
+			<name>Project Repository</name>
+			<url>file://${project.basedir}/src/main/webapp/WEB-INF/lib</url>
+		</repository>
+
+		<!-- cubrid repository -->
+		<!--<repository>
+			<id>cubrid</id>
+			<name>cubrid</name>
+			<url>https://maven.cubrid.org/</url>
+		</repository>-->
+
+	</repositories>
+
+	<dependencies>
+
+		<!-- ============================== SpringBoot 시작 ============================== -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+			<exclusions>
+				<exclusion>
+					<groupId>org.springframework.boot</groupId>
+					<artifactId>spring-boot-starter-logging</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-devtools</artifactId>
+			<optional>true</optional>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-websocket</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-thymeleaf</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jdbc</artifactId>
+		</dependency>
+		<!-- ============================== SpringBoot 종료 ============================== -->
+
+		<!-- ===================== 표준프레임워크 실행환경 시작 ============================== -->
+		<dependency>
+			<groupId>org.egovframe.rte</groupId>
+			<artifactId>org.egovframe.rte.ptl.mvc</artifactId>
+			<version>${org.egovframe.rte.version}</version>
+			<exclusions>
+				<exclusion>
+					<artifactId>commons-logging</artifactId>
+					<groupId>commons-logging</groupId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+
+		<dependency>
+			<groupId>org.egovframe.rte</groupId>
+			<artifactId>org.egovframe.rte.psl.dataaccess</artifactId>
+			<version>${org.egovframe.rte.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.egovframe.rte</groupId>
+			<artifactId>org.egovframe.rte.fdl.idgnr</artifactId>
+			<version>${org.egovframe.rte.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.egovframe.rte</groupId>
+			<artifactId>org.egovframe.rte.fdl.property</artifactId>
+			<version>${org.egovframe.rte.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.egovframe.rte</groupId>
+			<artifactId>org.egovframe.rte.fdl.security</artifactId>
+			<version>${org.egovframe.rte.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.egovframe.rte</groupId>
+			<artifactId>org.egovframe.rte.fdl.excel</artifactId>
+			<version>${org.egovframe.rte.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.egovframe.rte</groupId>
+			<artifactId>org.egovframe.rte.bat.core</artifactId>
+			<version>${org.egovframe.rte.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.egovframe.rte</groupId>
+			<artifactId>org.egovframe.rte.fdl.crypto</artifactId>
+			<version>${org.egovframe.rte.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.egovframe.rte</groupId>
+			<artifactId>org.egovframe.rte.fdl.access</artifactId>
+			<version>${org.egovframe.rte.version}</version>
+		</dependency>
+		<!-- ===================== 표준프레임워크 실행환경 종료 ============================== -->
+
+		<!-- Cache -->
+		<dependency>
+			<groupId>net.sf.ehcache</groupId>
+			<artifactId>ehcache</artifactId>
+			<version>2.10.9.2</version>
+		</dependency>
+		<dependency>
+			<groupId>net.sf.ehcache</groupId>
+			<artifactId>ehcache-core</artifactId>
+			<version>2.6.11</version>
+			<exclusions>
+				<exclusion>
+					<artifactId>slf4j-api</artifactId>
+					<groupId>org.slf4j</groupId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+
+		<!-- Scheduling -->
+		<dependency>
+			<groupId>org.quartz-scheduler</groupId>
+			<artifactId>quartz</artifactId>
+			<version>2.5.0-rc1</version>
+			<exclusions>
+				<exclusion>
+					<artifactId>slf4j-api</artifactId>
+					<groupId>org.slf4j</groupId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+		<dependency>
+			<groupId>org.quartz-scheduler</groupId>
+			<artifactId>quartz-jobs</artifactId>
+			<version>2.5.0-rc1</version>
+		</dependency>
+
+		<!-- Antlr -->
+		<dependency>
+			<groupId>org.antlr</groupId>
+			<artifactId>antlr</artifactId>
+			<version>3.5</version>
+		</dependency>
+
+		<!-- 우편번호 -->
+		<dependency>
+			<groupId>oro</groupId>
+			<artifactId>oro</artifactId>
+			<version>2.0.8</version>
+		</dependency>
+
+		<!-- 요소기술 -->
+		<dependency>
+			<groupId>com.ibm.icu</groupId>
+			<artifactId>icu4j</artifactId>
+			<version>72.1</version>
+		</dependency>
+
+		<!-- FTP 3rd-party -->
+		<dependency>
+			<groupId>commons-net</groupId>
+			<artifactId>commons-net</artifactId>
+			<version>3.10.0</version>
+		</dependency>
+
+		<!-- Compress -->
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-compress</artifactId>
+			<version>1.25.0</version>
+		</dependency>
+
+		<!-- Email -->
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-email</artifactId>
+			<version>1.5</version>
+		</dependency>
+		<dependency>
+			<groupId>egovframework.com.ems</groupId>
+			<artifactId>sndng-mail</artifactId>
+			<version>1.0</version>
+		</dependency>
+
+		<!-- XSS -->
+		<dependency>
+			<groupId>javax.servlet.jsp</groupId>
+			<artifactId>javax.servlet.jsp-api</artifactId>
+			<version>2.3.3</version>
+			<scope>provided</scope>
+		</dependency>
+
+		<!-- LDAP -->
+		<dependency>
+			<groupId>org.springframework.ldap</groupId>
+			<artifactId>spring-ldap-core</artifactId>
+			<version>2.4.0</version>
+			<exclusions>
+				<exclusion>
+					<groupId>org.springframework</groupId>
+					<artifactId>spring-beans</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>org.springframework</groupId>
+					<artifactId>spring-core</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>org.springframework</groupId>
+					<artifactId>spring-tx</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>org.slf4j</groupId>
+					<artifactId>slf4j-api</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>org.slf4j</groupId>
+					<artifactId>jcl-over-slf4j</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+		<dependency>
+			<groupId>ldapsdk</groupId>
+			<artifactId>ldapsdk</artifactId>
+			<version>4.1</version>
+		</dependency>
+
+		<!-- File Upload -->
+		<dependency>
+			<groupId>commons-fileupload</groupId>
+			<artifactId>commons-fileupload</artifactId>
+			<version>1.5</version>
+			<exclusions>
+				<exclusion>
+					<artifactId>commons-io</artifactId>
+					<groupId>commons-io</groupId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+
+		<!-- WYSIWYG Editor(CKEditor) -->
+		<dependency>
+			<groupId>com.ckeditor</groupId>
+			<artifactId>ckeditor-java-core</artifactId>
+			<version>3.5.3</version>
+		</dependency>
+
+		<!-- PDF -->
+		<dependency>
+			<groupId>com.artofsolving</groupId>
+			<artifactId>jodconverter</artifactId>
+			<version>2.2.1</version>
+			<exclusions>
+				<exclusion>
+					<artifactId>slf4j-api</artifactId>
+					<groupId>org.slf4j</groupId>
+				</exclusion>
+				<exclusion>
+					<artifactId>commons-io</artifactId>
+					<groupId>commons-io</groupId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+
+		<!-- SVG -->
+		<dependency>
+			<groupId>org.apache.xmlgraphics</groupId>
+			<artifactId>batik-ext</artifactId>
+			<version>1.17</version>
+		</dependency>
+
+		<!-- OAuth2 Login -->
+		<dependency>
+			<groupId>com.github.scribejava</groupId>
+			<artifactId>scribejava-apis</artifactId>
+			<version>8.3.3</version>
+		</dependency>
+		<dependency>
+			<groupId>com.github.scribejava</groupId>
+			<artifactId>scribejava-core</artifactId>
+			<version>8.3.3</version>
+		</dependency>
+
+		<!-- Http Client -->
+		<dependency>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpclient</artifactId>
+			<version>4.5.14</version>
+			<exclusions>
+				<exclusion>
+					<artifactId>commons-logging</artifactId>
+					<groupId>commons-logging</groupId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+
+		<!-- Json Mapper -->
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-core</artifactId>
+			<version>2.16.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-annotations</artifactId>
+			<version>2.16.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+			<version>2.16.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.codehaus.jackson</groupId>
+			<artifactId>jackson-mapper-asl</artifactId>
+			<version>1.9.13</version>
+		</dependency>
+
+		<!-- M-Gov (SMS Service API) -->
+		<dependency>
+			<groupId>project</groupId>
+			<artifactId>smeapi</artifactId>
+			<version>2.7.0</version>
+		</dependency>
+
+		<!-- GPKI인증서 로그인처리 라이브러리 -->
+		<dependency>
+			<groupId>project</groupId>
+			<artifactId>gpkisecureweb</artifactId>
+			<version>1.0.4.9</version>
+		</dependency>
+		<dependency>
+			<groupId>project</groupId>
+			<artifactId>libgpkiapi</artifactId>
+			<version>1.4.0</version>
+		</dependency>
+
+		<!-- 디지털원패스 -->
+		<dependency>
+			<groupId>project</groupId>
+			<artifactId>onepass</artifactId>
+			<version>2.0.0</version>
+		</dependency>
+
+		<!-- 모바일 운전면허증 -->
+		<dependency>
+			<groupId>project</groupId>
+			<artifactId>OmniEntSDKCore</artifactId>
+			<version>1.0.3.5</version>
+		</dependency>
+		<dependency>
+			<groupId>project</groupId>
+			<artifactId>OmniEntSDKServerCore</artifactId>
+			<version>1.0.3.5</version>
+		</dependency>
+		<dependency>
+			<groupId>project</groupId>
+			<artifactId>OmniEntSDKVerifier</artifactId>
+			<version>1.0.3.6</version>
+		</dependency>
+		<dependency>
+			<groupId>project</groupId>
+			<artifactId>RSLicenseSDK</artifactId>
+			<version>1.0.4</version>
+		</dependency>
+
+		<!-- Google Core Libraries for JAVA -->
+		<dependency>
+			<groupId>com.google.guava</groupId>
+			<artifactId>guava</artifactId>
+			<version>32.1.3-jre</version>
+		</dependency>
+
+		<!-- Google JSON Library -->
+		<dependency>
+			<groupId>com.google.code.gson</groupId>
+			<artifactId>gson</artifactId>
+			<version>2.10.1</version>
+		</dependency>
+
+		<!-- The Bouncy Castle Crypto Package For Java -->
+		<dependency>
+			<groupId>com.madgag.spongycastle</groupId>
+			<artifactId>pkix</artifactId>
+			<version>1.54.0.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.bouncycastle</groupId>
+			<artifactId>bcprov-jdk15on</artifactId>
+			<version>1.70</version>
+		</dependency>
+
+		<!-- ============================= SNS 시작 ====================================== -->
+		<!-- Twitter -->
+		<dependency>
+			<groupId>org.twitter4j</groupId>
+			<artifactId>twitter4j-core</artifactId>
+			<version>4.0.7</version>
+		</dependency>
+
+		<!-- Facebook -->
+		<dependency>
+			<groupId>org.springframework.social</groupId>
+			<artifactId>spring-social-facebook</artifactId>
+			<version>2.0.3.RELEASE</version>
+			<exclusions>
+				<exclusion>
+					<groupId>org.springframework</groupId>
+					<artifactId>spring-web</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>org.springframework</groupId>
+					<artifactId>spring-webmvc</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+		<!-- ============================= SNS 종료 ====================================== -->
+
+		<!-- ============================= JDBC 시작 ===================================== -->
+		<!-- dbcp2 -->
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-dbcp2</artifactId>
+			<version>2.11.0</version>
+		</dependency>
+
+		<!-- my sql -->
+		<!--<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>8.0.33</version>
+		</dependency>-->
+
+		<!-- postgresql -->
+		<dependency>
+			<groupId>org.postgresql</groupId>
+			<artifactId>postgresql</artifactId>
+			<version>42.7.0</version>
+		</dependency>
+
+		<!-- cubrid -->
+		<!--<dependency>
+			<groupId>cubrid</groupId>
+			<artifactId>cubrid-jdbc</artifactId>
+			<version>11.2.0.0035</version>
+		</dependency>-->
+
+		<!-- maria db -->
+		<!--<dependency>
+			<groupId>org.mariadb.jdbc</groupId>
+			<artifactId>mariadb-java-client</artifactId>
+			<version>3.3.0</version>
+		</dependency>-->
+
+		<!-- h2 db-->
+		<!--<dependency>
+			<groupId>com.h2database</groupId>
+			<artifactId>h2</artifactId>
+			<version>2.2.224</version>
+		</dependency>-->
+
+		<!-- Hyper SQL Database -->
+		<!--<dependency>
+			<groupId>org.hsqldb</groupId>
+			<artifactId>hsqldb</artifactId>
+			<version>2.7.2</version>
+		</dependency>-->
+
+		<!-- Oracle jdbc -->
+		<!--<dependency>
+			<groupId>com.oracle.database.jdbc</groupId>
+			<artifactId>ojdbc6</artifactId>
+			<version>11.2.0.4</version>
+		</dependency>-->
+
+		<!-- altibase driver -->
+		<!--<dependency>
+			<groupId>com.altibase</groupId>
+			<artifactId>altibase-jdbc</artifactId>
+			<version>7.3.0.0.2</version>
+		</dependency>-->
+
+		<!-- tibero driver -->
+		<!--<dependency>
+			<groupId>project</groupId>
+			<artifactId>tibero5</artifactId>
+			<version>5.0.0</version>
+		</dependency>-->
+
+
+		<!-- goldilocks driver -->
+		<!--<dependency>
+			<groupId>project</groupId>
+			<artifactId>goldilocks8</artifactId>
+			<version>8.0.0</version>
+		</dependency>-->
+		<!-- ============================= JDBC 종료 ===================================== -->
+
+		<!-- Lombok -->
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<optional>true</optional>
+			<version>1.18.30</version>
+		</dependency>
+
+	</dependencies>
+
+	<build>
+		<defaultGoal>install</defaultGoal>
+		<directory>${project.basedir}/target</directory>
+		<finalName>EgovBoot-4.1.2</finalName>
+		<pluginManagement>
+			<plugins>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-compiler-plugin</artifactId>
+					<version>3.10.1</version>
+					<configuration>
+						<source>11</source>
+						<target>11</target>
+						<encoding>UTF-8</encoding>
+					</configuration>
+				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-jar-plugin</artifactId>
+					<version>3.3.0</version>
+				</plugin>
+				<!-- EMMA -->
+				<plugin>
+					<groupId>org.codehaus.mojo</groupId>
+					<artifactId>emma-maven-plugin</artifactId>
+					<version>1.0-alpha-3</version>
+				</plugin>
+			</plugins>
+		</pluginManagement>
+	</build>
+
+</project>

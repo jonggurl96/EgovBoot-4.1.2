@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fa087bea-3014-4649-b483-3d220039335b" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/egovframework/com/cmm/abslyr/dto/AbstractDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/egovframework/com/cmm/abslyr/vo/AbstractVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/egovframework/main/EgovBootApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/egovframework/main/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/egovframework/egovProps/ck.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/egovframework/egovProps/conf/SMEConfig.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/egovframework/egovProps/conf/client.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/egovframework/egovProps/conf/confirmmessage.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/egovframework/egovProps/conf/errormessage.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/egovframework/egovProps/conf/format.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/egovframework/egovProps/conf/gpki.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/egovframework/egovProps/conf/infomessage.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/egovframework/egovProps/conf/server.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/egovframework/egovProps/conf/smsdb.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/egovframework/egovProps/conf/warnmessage.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/egovframework/egovProps/globals.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/egovframework/egovProps/prg/compileSchema.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/egovframework/egovProps/prg/compileSchema.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/egovframework/egovProps/prg/getDiskAttrb.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/egovframework/egovProps/prg/getDiskAttrb.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/egovframework/egovProps/prg/getDiskCpcty.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/egovframework/egovProps/prg/getDiskCpcty.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/egovframework/egovProps/prg/getDiskExst.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/egovframework/egovProps/prg/getDiskExst.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/egovframework/egovProps/prg/getDiskInfo.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/egovframework/egovProps/prg/getDiskInfo.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/egovframework/egovProps/prg/getDrctryAccess.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/egovframework/egovProps/prg/getDrctryByOwner.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/egovframework/egovProps/prg/getDrctryByOwner.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/egovframework/egovProps/prg/getDrctryOwner.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/egovframework/egovProps/prg/getDrctryOwner.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/egovframework/egovProps/prg/getMoryInfo.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/egovframework/egovProps/prg/getMoryInfo.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/egovframework/egovProps/prg/getMountLc.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/egovframework/egovProps/prg/getNetWorkInfo.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/egovframework/egovProps/prg/getOSInfo.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/egovframework/egovProps/prg/getOSInfo.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/egovframework/egovProps/prg/getPrductStatus.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/egovframework/egovProps/prg/getPrductStatus.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/egovframework/egovProps/prg/getPrductVersion.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/egovframework/egovProps/prg/getPrductVersion.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/egovframework/egovProps/prg/moveDrctry.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/egovframework/egovProps/prg/moveDrctry.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/egovframework/egovProps/prg/sh_001.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/project/OmniEntSDKCore/1.0.3.5/OmniEntSDKCore-1.0.3.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/project/OmniEntSDKServerCore/1.0.3.5/OmniEntSDKServerCore-1.0.3.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/project/OmniEntSDKVerifier/1.0.3.6/OmniEntSDKVerifier-1.0.3.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/project/RSLicenseSDK/1.0.4/RSLicenseSDK-1.0.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/project/altibase/7.1.0/altibase-7.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/project/cubrid/10.2.0/cubrid-10.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/project/goldilocks8/8.0.0/goldilocks8-8.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/project/gpkisecureweb/1.0.4.9/gpkisecureweb-1.0.4.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/project/libgpkiapi/1.4.0/libgpkiapi-1.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/project/ojdbc6/11.2.0.3/ojdbc6-11.2.0.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/project/onepass/2.0.0/onepass-2.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/project/smeapi/2.7.0/smeapi-2.7.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/project/tibero5/5.0.0/tibero5-5.0.0.jar" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTTP Request" />
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2aimhA2pNvrImRryHNk1KFj1JDq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.EgovBootApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/jongg/IdeaProjects/EgovBoot4.1.2/src/main/java/egovframework/com&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jongg\IdeaProjects\EgovBoot4.1.2\src\main\java\egovframework\com" />
+      <recent name="C:\Users\jongg\IdeaProjects\EgovBoot4.1.2\src\main\resources\egovframework" />
+      <recent name="C:\Users\jongg\IdeaProjects\EgovBoot4.1.2\src\main\webapp\WEB-INF" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="EgovBootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="EgovBoot4.1.2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="egovframework.main.EgovBootApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="egovframework.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.EgovBootApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-11.0.20-graalvm-ce-11-f644763e9732-f51d793a" />
+        <option value="jdk-20.0.2-azul-20.0.2-3183f394aec4-4edb7f01" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="fa087bea-3014-4649-b483-3d220039335b" name="변경" comment="" />
+      <created>1704809891429</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1704809891429</updated>
+      <workItem from="1704809892330" duration="4879000" />
+      <workItem from="1704892281359" duration="8760000" />
+      <workItem from="1705077930903" duration="46000" />
+      <workItem from="1705077995687" duration="4843000" />
+      <workItem from="1705125202694" duration="3130000" />
+      <workItem from="1705130877647" duration="1689000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
