@@ -1,4 +1,4 @@
-package egovframework.com.cmm.abslyr.vo;
+package egovframework.ablyr.vo;
 
 
 import lombok.Getter;

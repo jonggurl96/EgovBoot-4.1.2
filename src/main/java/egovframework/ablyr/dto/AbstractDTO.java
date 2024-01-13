@@ -1,7 +1,7 @@
-package egovframework.com.cmm.abslyr.dto;
+package egovframework.ablyr.dto;
 
 
-import egovframework.com.cmm.abslyr.vo.AbstractVO;
+import egovframework.ablyr.vo.AbstractVO;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
