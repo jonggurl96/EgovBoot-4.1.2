@@ -55,9 +55,9 @@ sequenceDiagram
     Service ->> Mapper: VO
     Mapper ->> DataBase: SQL
     
-    DataBase --> Mapper: 
-    Mapper --> Service: 
-    Service --> Controller: 
+    DataBase --> Mapper: -
+    Mapper --> Service: -
+    Service --> Controller: -
     Controller ->> View: HTML, VO
     View ->> User: HTML
 ```

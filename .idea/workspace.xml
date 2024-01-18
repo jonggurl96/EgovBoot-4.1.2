@@ -4,36 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa087bea-3014-4649-b483-3d220039335b" name="변경" comment="initial-commit">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/http/sample/sample.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/egovframework/ablyr/dto/SearchDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/egovframework/ablyr/dto/sample/SampleDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/egovframework/ablyr/mapper/SampleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/egovframework/ablyr/service/SampleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/egovframework/ablyr/service/SampleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/egovframework/ablyr/vo/sample/SampleVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/egovframework/ablyr/web/SampleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/egovframework/config/mybatis/EgovConfigMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/egovframework/mapper/sample/sample.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5585f615-9812-46b4-8ad1-a0104e847dd9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5585f615-9812-46b4-8ad1-a0104e847dd9/storage_v2/_src_/database/postgres.edMnLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5585f615-9812-46b4-8ad1-a0104e847dd9/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5585f615-9812-46b4-8ad1-a0104e847dd9/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5585f615-9812-46b4-8ad1-a0104e847dd9/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5585f615-9812-46b4-8ad1-a0104e847dd9/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="fa087bea-3014-4649-b483-3d220039335b" name="변경" comment="기본적인 mvc구조 추가">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/egovframework/ablyr/dto/AbstractDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/egovframework/ablyr/dto/AbstractDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/egovframework/main/EgovBootApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/egovframework/main/EgovBootApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,7 +165,7 @@
       <workItem from="1705130877647" duration="2014000" />
       <workItem from="1705312620619" duration="7451000" />
       <workItem from="1705385794128" duration="8573000" />
-      <workItem from="1705581733730" duration="6425000" />
+      <workItem from="1705581733730" duration="6566000" />
     </task>
     <task id="LOCAL-00001" summary="initial-commit">
       <option name="closed" value="true" />
@@ -201,7 +175,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705132602436</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="기본적인 mvc구조 추가">
+      <option name="closed" value="true" />
+      <created>1705588242860</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1705588242860</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,7 +203,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="initial-commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial-commit" />
+    <MESSAGE value="기본적인 mvc구조 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="기본적인 mvc구조 추가" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

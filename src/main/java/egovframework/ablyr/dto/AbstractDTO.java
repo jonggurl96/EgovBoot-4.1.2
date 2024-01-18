@@ -2,9 +2,7 @@ package egovframework.ablyr.dto;
 
 
 import egovframework.ablyr.vo.AbstractVO;
-import lombok.Getter;
 import lombok.NoArgsConstructor;
-import lombok.Setter;
 
 /**
  * AbstractDTO.java
