@@ -1,8 +1,9 @@
 server:
   port: 8080
+  servlet:
+    context-path: /
 spring:
   thymeleaf:
-#    encoding: UTF-8
     prefix: classpath:/templates/
     suffix: .html
     cache: false
@@ -12,6 +13,9 @@ spring:
 
   datasource:
     driver-class-name: org.postgresql.Driver
-    username: postgres
-    password: postgres
-    url: jdbc:postgresql://localhost:5432/postgres
+    username: egovboot
+    password: egovboot
+    url: jdbc:postgresql://localhost:5432/EgovBoot_4.1.2?connectionTimeZone=Asia/Seoul
+logging:
+  level:
+    root: debug

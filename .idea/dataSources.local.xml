@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal" created-in="IU-233.13135.103">
-    <data-source name="postgres@localhost" uuid="5585f615-9812-46b4-8ad1-a0104e847dd9">
+    <data-source name="EgovBoot_4.1.2@localhost" uuid="0473d8a3-faf6-4d5b-a12e-05cb1240c876">
       <database-info product="PostgreSQL" version="16.1" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.6.0" dbms="POSTGRES" exact-version="16.1" exact-driver-version="42.6">
         <identifier-quote-string>&quot;</identifier-quote-string>
       </database-info>
       <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
       <secret-storage>master_key</secret-storage>
-      <user-name>postgres</user-name>
+      <user-name>egovboot</user-name>
       <schema-mapping>
         <introspection-scope>
           <node kind="database" qname="@">

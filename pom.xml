@@ -142,11 +142,11 @@
 			<version>${org.egovframe.rte.version}</version>
 		</dependency>
 
-		<dependency>
+		<!--<dependency>
 			<groupId>org.egovframe.rte</groupId>
 			<artifactId>org.egovframe.rte.fdl.security</artifactId>
 			<version>${org.egovframe.rte.version}</version>
-		</dependency>
+		</dependency>-->
 
 		<dependency>
 			<groupId>org.egovframe.rte</groupId>
@@ -172,6 +172,13 @@
 			<version>${org.egovframe.rte.version}</version>
 		</dependency>
 		<!-- ===================== 표준프레임워크 실행환경 종료 ============================== -->
+
+		<!-- apache lang3 -->
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>3.12.0</version>
+		</dependency>
 
 		<!-- Cache -->
 		<dependency>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$USER_HOME$/OneDrive/바탕 화면/egovframework-all-in-oneAllNew/script/comment/postgres/egov_postgres_comment.sql" dialect="PostgreSQL" />
+    <file url="file://$USER_HOME$/OneDrive/바탕 화면/egovframework-all-in-oneAllNew/script/ddl/postgres/com_DDL_postgres.sql" dialect="PostgreSQL" />
+    <file url="file://$USER_HOME$/OneDrive/바탕 화면/egovframework-all-in-oneAllNew/script/dml/postgres/com_DML_postgres.sql" dialect="PostgreSQL" />
+    <file url="PROJECT" dialect="PostgreSQL" />
+  </component>
+</project>

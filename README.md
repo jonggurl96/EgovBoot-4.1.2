@@ -6,7 +6,7 @@
 ### src/main/java
 ```text
 egovframework
-   ㄴ abslyr --------------------------------- Abstract Layer, 계층형 구조로 구성
+   ㄴ ablyr --------------------------------- Abstract Layer, 계층형 구조로 구성
    ㄴ com ------------------------------------ 공통컴포넌트
       ㄴ cmm --------------------------------- 공통컴포넌트 범용
       ㄴ utl --------------------------------- 공통컴포넌트 유틸
@@ -39,6 +39,28 @@ sequenceDiagram
 
 ```
 
+```mermaid
+sequenceDiagram
+    title Insert/Update/Delete
+    actor User
+    participant View
+    participant Controller
+    participant Service
+    participant Mapper
+    participant DataBase
+    
+    User ->> View: action
+    View ->> Controller: URL, Params
+    Controller ->> Service: VO
+    Service ->> Mapper: VO
+    Mapper ->> DataBase: SQL
+    
+    DataBase --> Mapper: 
+    Mapper --> Service: 
+    Service --> Controller: 
+    Controller ->> View: HTML, VO
+    View ->> User: HTML
+```
 
 
 

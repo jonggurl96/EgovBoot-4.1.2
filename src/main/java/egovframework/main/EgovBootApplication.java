@@ -13,6 +13,7 @@ import org.springframework.context.annotation.EnableAspectJAutoProxy;
 public class EgovBootApplication {
 	
 	public static void main(String[] args) {
+		System.setProperty("java.net.PreferIPv4Stack", "true");
 		SpringApplication springApplication = new SpringApplication(EgovBootApplication.class);
 		springApplication.setBannerMode(Banner.Mode.OFF);
 		springApplication.setLogStartupInfo(false);

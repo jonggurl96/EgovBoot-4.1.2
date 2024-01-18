@@ -5,7 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa087bea-3014-4649-b483-3d220039335b" name="변경" comment="initial-commit">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http/sample/sample.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/egovframework/ablyr/dto/SearchDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/egovframework/ablyr/dto/sample/SampleDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/egovframework/ablyr/mapper/SampleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/egovframework/ablyr/service/SampleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/egovframework/ablyr/service/SampleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/egovframework/ablyr/vo/sample/SampleVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/egovframework/ablyr/web/SampleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/egovframework/config/mybatis/EgovConfigMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/egovframework/mapper/sample/sample.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5585f615-9812-46b4-8ad1-a0104e847dd9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5585f615-9812-46b4-8ad1-a0104e847dd9/storage_v2/_src_/database/postgres.edMnLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5585f615-9812-46b4-8ad1-a0104e847dd9/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5585f615-9812-46b4-8ad1-a0104e847dd9/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5585f615-9812-46b4-8ad1-a0104e847dd9/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5585f615-9812-46b4-8ad1-a0104e847dd9/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/egovframework/ablyr/dto/AbstractDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/egovframework/ablyr/dto/AbstractDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/egovframework/main/EgovBootApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/egovframework/main/EgovBootApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +43,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTTP Request" />
         <option value="HTML File" />
+        <option value="Interface" />
+        <option value="HTTP Request" />
         <option value="Class" />
       </list>
     </option>
@@ -68,6 +97,8 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "DefaultHtmlFileTemplate": "HTML File",
+    "HTTP 요청.sample | #1.executor": "Run",
+    "HTTP 요청.sample | #2.executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -78,13 +109,16 @@
     "Spring Boot.EgovBootApplication.executor": "Run",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/jongg/IdeaProjects/EgovBoot4.1.2/src/main/java/egovframework/com",
+    "last_opened_file_path": "C:/Users/jongg/OneDrive/바탕 화면/egovframework-all-in-oneAllNew/script/dml/postgres/com_DML_postgres.sql",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "terminal",
+    "project.structure.last.edited": "모듈",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "Ignore Files Support",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -95,12 +129,23 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\jongg\IdeaProjects\EgovBoot4.1.2\src\main\java\egovframework\com" />
-      <recent name="C:\Users\jongg\IdeaProjects\EgovBoot4.1.2\src\main\resources\egovframework" />
-      <recent name="C:\Users\jongg\IdeaProjects\EgovBoot4.1.2\src\main\webapp\WEB-INF" />
+      <recent name="C:\Users\jongg\IdeaProjects\EgovBoot-4.1.2\src\main\resources\egovframework\mapper\com\uat\uap" />
+      <recent name="C:\Users\jongg\IdeaProjects\EgovBoot-4.1.2\src\main\java\egovframework\com\cmm" />
+      <recent name="C:\Users\jongg\IdeaProjects\EgovBoot-4.1.2\src\main\java\egovframework\com\uat\uap\dao" />
+      <recent name="C:\Users\jongg\IdeaProjects\EgovBoot-4.1.2\src\main\java\egovframework\com\uat\uap\service\impl" />
+      <recent name="C:\Users\jongg\IdeaProjects\EgovBoot-4.1.2\src\main\java\egovframework\com\uat\uap\service" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jongg\IdeaProjects\EgovBoot-4.1.2\src\main\resources\egovframework\mapper\sample" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.EgovBootApplication">
+    <configuration name="sample | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/http/sample/sample.http" requestIdentifier="#1" runType="단일 요청 실행">
+      <method v="2" />
+    </configuration>
+    <configuration name="sample | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/http/sample/sample.http" index="2" requestIdentifier="#2" runType="단일 요청 실행">
+      <method v="2" />
+    </configuration>
     <configuration name="EgovBootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="EgovBoot4.1.2" />
@@ -117,7 +162,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP 요청.sample | #2" />
         <item itemvalue="Spring Boot.EgovBootApplication" />
+        <item itemvalue="HTTP 요청.sample | #1" />
       </list>
     </recent_temporary>
   </component>
@@ -125,7 +172,6 @@
     <attachedChunks>
       <set>
         <option value="jdk-11.0.20-graalvm-ce-11-f644763e9732-f51d793a" />
-        <option value="jdk-20.0.2-azul-20.0.2-3183f394aec4-4edb7f01" />
       </set>
     </attachedChunks>
   </component>
@@ -143,6 +189,9 @@
       <workItem from="1705077995687" duration="4843000" />
       <workItem from="1705125202694" duration="3130000" />
       <workItem from="1705130877647" duration="2014000" />
+      <workItem from="1705312620619" duration="7451000" />
+      <workItem from="1705385794128" duration="8573000" />
+      <workItem from="1705581733730" duration="6425000" />
     </task>
     <task id="LOCAL-00001" summary="initial-commit">
       <option name="closed" value="true" />
@@ -158,9 +207,24 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="initial-commit" />
     <option name="LAST_COMMIT_MESSAGE" value="initial-commit" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

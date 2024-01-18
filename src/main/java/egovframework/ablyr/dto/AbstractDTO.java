@@ -17,8 +17,6 @@ import lombok.Setter;
  * @version 1.0.0
  * @since 2024-01-13, 토, 15:03
  */
-@Getter
-@Setter
 @NoArgsConstructor
 public abstract class AbstractDTO {
 	
