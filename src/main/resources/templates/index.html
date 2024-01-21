@@ -1,10 +1,28 @@
 <!DOCTYPE html>
-<html lang="ko" xmlns:th="https://www.thymeleaf.org">
-<head>
-	<meta http-equiv="Content-Type" charset="UTF-8" content="text/html">
-	<title>home</title>
-</head>
-<body>
-<h1 th:text="|Thymeleaf 연동 성공|"></h1>
-</body>
+<html lang="ko"
+      xmlns:th="https://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{layouts/sample_layout}">
+
+<th:block layout:fragment="script">
+	<script th:inline="javascript">
+		alert("Loading...");
+	</script>
+</th:block>
+
+<th:block layout:fragment="css">
+	<style th:inline="css">
+		header>h1 {
+			width: 100%;
+			height: 30px;
+			text-align: center;
+			font-weight: 800;
+			color: black;
+		}
+	</style>
+</th:block>
+
+<th:block layout:fragment="content">
+	<h1 th:text="|Thymeleaf 연동 성공|"></h1>
+</th:block>
 </html>
