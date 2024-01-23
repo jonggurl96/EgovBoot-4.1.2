@@ -2,6 +2,26 @@
 <project version="4">
   <component name="Encoding" native2AsciiForPropertiesFiles="true">
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/egovframework/com/cmm/annotation" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/src/main/java/egovframework/com/cmm/login/LoginVO.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/src/main/java/egovframework/com/cmm/message/EgovMessageSource.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/src/main/java/egovframework/com/cmm/message/EgovMessageSource.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/src/main/java/egovframework/com/cmm/message/EgovWildcardReloadableResourceBundleMessageSource.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/src/main/java/egovframework/com/cmm/message/EgovWildcardReloadableResourceBundleMessageSource.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/src/main/java/egovframework/com/cmm/service/EgovUserDetailsService.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/src/main/java/egovframework/com/cmm/service/impl/CmmUseDAO.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/src/main/java/egovframework/com/cmm/service/impl/EgoDummyUserDetailsServiceImpl.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/src/main/java/egovframework/com/cmm/service/impl/EgovCmmUseServiceImpl.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/src/main/java/egovframework/com/cmm/service/impl/EgovComAbstractDAO.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/src/main/java/egovframework/com/cmm/service/impl/EgovFileMngServiceImpl.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/src/main/java/egovframework/com/cmm/service/impl/EgovUserDetailsSessionServiceImpl.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/src/main/java/egovframework/com/cmm/service/impl/FileManageDAO.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/src/main/java/egovframework/com/cmm/util/EgovUserDetailsHelper.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/src/main/java/egovframework/com/sec/pki/EgovCryptoController.java" charset="ISO-8859-1" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/egovframework/message" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/static/css" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/static/js" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/templates/egovframework/com/sec/pki/EgovCryptoInfo.html" charset="ISO-8859-1" />
   </component>
 </project>

@@ -1,0 +1,111 @@
+<!--
+/**
+  * @Class Name : EgovCryptoInfo.jsp
+  * @Description : 암호화/복호화 화면
+  * @Modification Information
+  * @
+  * @  수정일         수정자    수정내용
+  * @ ------------  -------  ----------
+  * @  2018.12.03    신용호    최초 생성
+  *
+  *  @author 실행환경 개발팀 홍길동
+  *  @since 2018.12.03
+  *  @version 3.8
+  *  @see
+  *
+  */
+-->
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="https://www.thymeleaf.org">
+<head>
+	<meta http-equiv="Content-Type" charset="UTF-8" content="text/html">
+	<title th:text="|#{comSecPki.title} #{title.list}|"></title>
+	<link rel="stylesheet" th:src="@{/css/egovframework/com/com.css}">
+</head>
+<body>
+<span th:text="#{common.noScriptTitle.msg}"></span>
+<form name="listForm" th:action="@{/sec/pki/EgovCryptoInfo.do}" method="post">
+	<div class="board">
+		<!-- 암호화/복호화 -->
+		<h1 th:text="#{comSecPki.title}"></h1>
+
+		<!-- 요청영역 -->
+		<div class="search_box" th:title="#{common.searchCondition.msg}">
+			<ul>
+				<li>
+					<div style="line-height:4px;">&nbsp;</div>
+					<div th:text="|#{comSecPki.cryptoInfo.plainText} (Plain Text) :|"></div>
+				</li><!-- 원본 문자열 -->
+				     <!-- 암복호화 키워드 및 요청버튼 -->
+				<li style="border: 0 solid #d2d2d2;">
+					<label>
+						<input class="s_input" name="plainText" type="text" size="500" maxlength="500"
+						       style="width:400px;"
+						       th:title="|#{title.search} #{input.input}|"
+						       th:if="${plainText eq null or plainText eq ''}"
+						       th:value="#{comSecPki.cryptoInfo.sampleText}">
+					</label>
+
+					<label>
+						<input class="s_input" name="plainText" type="text" size="500" maxlength="500"
+						       style="width:400px;"
+						       th:title="|#{title.search} #{input.input}|"
+						       th:unless="${plainText eq null or plainText eq ''}"
+						       th:value="${plainText}">
+					</label>
+
+					<input type="submit" class="s_btn" th:value="#{button.inquire}"
+					       th:title="|#{title.inquire} #{input.button}|"/>
+				</li>
+			</ul>
+		</div>
+
+		<!-- 상세내용 -->
+		<table class="popwTable">
+			<caption th:text="#{comSecPki.title}"></caption>
+			<colgroup>
+				<col style="width: 20%;">
+				<col style="width: 80%;">
+			</colgroup>
+			<tbody>
+			<!-- 암호화 방식 -->
+			<tr>
+				<th th:text="#{comSecPki.cryptoInfo.cryptoType}"></th>
+				<td class="left">ARIA</td>
+			</tr>
+			<!-- 원본문자열 -->
+			<tr>
+				<th th:text="#{comSecPki.cryptoInfo.plainText}"></th>
+				<td class="left" th:text="${plainText}"></td>
+			</tr>
+			<!-- 원본문자열 길이 -->
+			<tr>
+				<th th:text="#{comSecPki.cryptoInfo.plainTextLen}"></th>
+				<td class="left" th:text="${plainTextLen}"></td>
+			</tr>
+			<!-- 암호화문자열(Base64) -->
+			<tr>
+				<th th:text="#{comSecPki.cryptoInfo.cryptText}"></th>
+				<td class="left" th:text="${cryptText}"></td>
+			</tr>
+			<!-- 복호화문자열 -->
+			<tr>
+				<th th:text="#{comSecPki.cryptoInfo.decryptText}"></th>
+				<td class="left" th:text="${decryptText}"></td>
+			</tr>
+			<!-- 복호화문자열 길이 -->
+			<tr>
+				<th th:text="#{comSecPki.cryptoInfo.decryptTextLen}"></th>
+				<td class="left" th:text="${decryptTextLen}"></td>
+			</tr>
+
+			</tbody>
+		</table>
+
+	</div>
+</form>
+</body>
+</html>
+
+
+

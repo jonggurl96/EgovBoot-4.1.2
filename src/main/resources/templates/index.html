@@ -6,7 +6,7 @@
 
 <th:block layout:fragment="script">
 	<script th:inline="javascript">
-		alert("Loading...");
+		console.log("index.html");
 	</script>
 </th:block>
 
@@ -24,5 +24,10 @@
 
 <th:block layout:fragment="content">
 	<h1 th:text="|Thymeleaf 연동 성공|"></h1>
+	<form th:action="@{/sec/pki/EgovCryptoInfo.do}">
+		<input type="hidden" name="plainText" value="egovframe">
+		<input type="submit" id="encryptTestBtn" value="CRYPTO Test: Encrypt 'egovframe'">
+	</form>
 </th:block>
+
 </html>
