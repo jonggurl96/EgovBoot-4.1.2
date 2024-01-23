@@ -18,22 +18,22 @@ public class SearchDTO extends PaginationInfo {
 	/**
 	 * 검색 조건
 	 */
-	private String searchCondition;
+	protected String searchCondition;
 	
 	/**
 	 * 검색 키워드
 	 */
-	private String searchKeyword;
+	protected String searchKeyword;
 	
 	/**
 	 * 검색 날짜 범위 시작
 	 */
-	private String startDate;
+	protected String startDate;
 	
 	/**
 	 * 검색 날짜 범위 끝
 	 */
-	private String endDate;
+	protected String endDate;
 	
 	/**
 	 * Record Count Per Page
