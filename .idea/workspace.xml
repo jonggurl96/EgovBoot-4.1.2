@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa087bea-3014-4649-b483-3d220039335b" name="변경" comment="공통컴포넌트 cmm, sec 추가">
+    <list default="true" id="fa087bea-3014-4649-b483-3d220039335b" name="변경" comment="messageSource setEgovBasenames 수정">
+      <change afterPath="$PROJECT_DIR$/Table_Description.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/egovframework/com/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/egovframework/com/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,6 +186,7 @@
       <workItem from="1705842157920" duration="11200000" />
       <workItem from="1706018695029" duration="4478000" />
       <workItem from="1706190054571" duration="210000" />
+      <workItem from="1706190451988" duration="2724000" />
     </task>
     <task id="LOCAL-00001" summary="initial-commit">
       <option name="closed" value="true" />
@@ -241,7 +244,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706023077347</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="messageSource setEgovBasenames 수정">
+      <option name="closed" value="true" />
+      <created>1706190677704</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1706190677704</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,7 +277,8 @@
     <MESSAGE value="thymeleaf layout 적용" />
     <MESSAGE value="SearchParamMap generator" />
     <MESSAGE value="공통컴포넌트 cmm, sec 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="공통컴포넌트 cmm, sec 추가" />
+    <MESSAGE value="messageSource setEgovBasenames 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="messageSource setEgovBasenames 수정" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

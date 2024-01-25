@@ -10,8 +10,7 @@
  *
  *
  */
-
-var selTAB			= "TAB_01"; // 선택된 탭
+let selTAB = "TAB_01"; // 선택된 탭
 /*********************************************************************
  *	탭 클릭 시
  *********************************************************************/
@@ -32,7 +31,7 @@ function fn_swapImage(obj){
  *	MOUSE OUT 시
  *********************************************************************/
 function fn_swapImgRestore(obj){
-	if(selTAB != obj.id){
+	if(selTAB !== obj.id){
 		obj.src = getContextPath + "/images/egovframework/com/" + obj.id + ".gif";
 	}
 }
@@ -41,15 +40,15 @@ function fn_swapImgRestore(obj){
  *	클릭된 이미지만 ON 나머지 OFF
  *********************************************************************/
 function fn_setImgOn(id){
-	if(id == "TAB_01"){
+	if(id === "TAB_01"){
 		document.all.TAB_01.src = getContextPath+"/images/egovframework/com/TAB_01_o.gif";
 		document.all.TAB_02.src = getContextPath+"/images/egovframework/com/TAB_02.gif";
 		document.all.TAB_03.src = getContextPath+"/images/egovframework/com/TAB_03.gif";
-	}else if(id == "TAB_02"){
+	}else if(id === "TAB_02"){
 		document.all.TAB_01.src = getContextPath+"/images/egovframework/com/TAB_01.gif";
 		document.all.TAB_02.src = getContextPath+"/images/egovframework/com/TAB_02_o.gif";
 		document.all.TAB_03.src = getContextPath+"/images/egovframework/com/TAB_03.gif";
-	}else if(id == "TAB_03"){
+	}else if(id === "TAB_03"){
 		document.all.TAB_01.src = getContextPath+"/images/egovframework/com/TAB_01.gif";
 		document.all.TAB_02.src = getContextPath+"/images/egovframework/com/TAB_02.gif";
 		document.all.TAB_03.src = getContextPath+"/images/egovframework/com/TAB_03_o.gif";
