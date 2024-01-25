@@ -15,7 +15,7 @@ public class EgovConfigMsgSrc {
 	@Bean
 	public EgovWildcardReloadableResourceBundleMessageSource messageSource() {
 		EgovWildcardReloadableResourceBundleMessageSource messageSource = new EgovWildcardReloadableResourceBundleMessageSource();
-		messageSource.setBasenames(
+		messageSource.setEgovBasenames(
 				"classpath*:egovframework/message/com/*",
 				"classpath*:egovframework/message/com/**/*",
 				"classpath:/org/egovframe/rte/fdl/idgnr/messages/idgnr",
